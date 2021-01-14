@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body
+{
+	background-color: black;
+	margin: 0px 0px;
+}
+
+/*  -------------Navigation part--------------*/
+.navigation
+{
+	padding: 1rem;
+	background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png'); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.list-item-inline
+{
+	display: inline;
+	padding-left: 2rem; 
+	padding-right: 1rem;
+	font-size: 25px;
+    font-weight: bold;
+}
+.box
+{
+	border: 2px solid green;
+	box-shadow: 4px 4px green;
+	border-radius: 5px;
+    padding: 7px 15px;
+    font-family: 'Pacifico', cursive;
+}
+.link
+{
+	text-decoration: none;
+	color: black;
+}
+
+/* ----------------Image Part------------------ */
+.div-img
+{
+	width: 100%;
+	height: 500px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container 
+{
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides 
+{
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next 
+{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next 
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#Genre
+{
+	background-color: yellow;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	padding: 3px 0px;
+	margin: 10px 20px;
+	display: inline;
+	width: 20%;
+	border-radius: 10px;
+    
+}
+.search
+{
+	display: inline;
+	width: 68%;
+	background-color: yellow;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	padding: 3px 0px;
+	margin: 10px 0px 10px 20px;
+	border-radius: 10px;
+}
+.srch
+{
+	display: inline;
+	width: 2%;
+	background-color: yellow;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	border-radius: 10px;
+	padding: 3px;
+}
+
+
+.logo
+{
+	margin: 20px;
+	font-size: 25px;
+
+}
+
+.s-h2
+{
+	color: white;
+	border-bottom: 3px solid grey;
+	margin-bottom: 10px;
+}
+.s-img
+{
+	height: 210px;
+	width: 140px;
+	margin: 2px;
+}
+
+.textblock
+{
+	position: absolute; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5);
+    color: white; 
+    width: 100%; 
+    text-align: center;
+}
+.cntainr
+{
+	position: relative;
+    display: inline;
+}
+.foot
+{
+	margin-top: 20px; 
+}
